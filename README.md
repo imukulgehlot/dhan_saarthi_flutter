@@ -119,7 +119,7 @@ flutter run
 ## 💡 Development Decisions
 
 - **Why Supabase?**
-    - Fast setup for auth + Postgres + RLS = perfect combo for interviews 🔥
+    - Fast setup for auth 🔥
 
 - **State Management:**
     - [`GetX`] chosen for lightweight reactive state, navigation, and DI in one

@@ -50,7 +50,7 @@ A Flutter application built as an interview task that showcases user authenticat
 1. **Clone the Repo:**
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone [https://github.com/your-username/your-repo.git](https://github.com/imukulgehlot/dhan_saarthi_flutter)
 cd your-repo
 ```
 

@@ -110,8 +110,7 @@ flutter run
 - [`supabase_flutter`](https://pub.dev/packages/supabase_flutter)
 - State Management: `GetX` / `Riverpod` / `Provider` *(your pick)*
 - Charts: `fl_chart` / `syncfusion_flutter_charts`
-- HTTP: `dio` / `http`
-- [Add any extras: like `shared_preferences`, `intl`, etc.]
+- [Add any extras: like `flutter_screenutil`, `flutter_secure_storage`, etc.]
 
 
 ---

@@ -143,4 +143,4 @@ flutter run
 ---
 
 💼 _Made with Flutter, Supabase & a lot of ☕ by Mukul Gehlot_  
-📧 _For questions: your.email@example.com_
+📧 _For questions: imukulgehlot@gmail.com_

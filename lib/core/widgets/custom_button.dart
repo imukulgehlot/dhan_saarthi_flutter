@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../basic_features.dart';
-import '../utils/custom_text_style.dart';
 import 'custom_image.dart';
 
 class RoundedRectangleButton extends ElevatedButton {
@@ -25,7 +24,7 @@ class RoundedRectangleButton extends ElevatedButton {
         super(
             child: Text(
               text,
-              style: textStyle ?? CustomTextStyle.instance.semiBold18,
+              style: textStyle ?? fontStyleSemiBold18,
               textAlign: textAlign,
             ),
             onPressed: onPressed,
@@ -63,7 +62,7 @@ class RoundedRectangleButton extends ElevatedButton {
                 if (text != null && text.isNotEmpty)
                   Text(
                     text,
-                    style: textStyle ?? CustomTextStyle.instance.semiBold18,
+                    style: textStyle ?? fontStyleSemiBold18,
                   ),
               ],
             ),

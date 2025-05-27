@@ -4,8 +4,6 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:get_storage/get_storage.dart';
 
 import '../basic_features.dart';
-import '../environment_setup/environment.dart';
-import 'cache_manager.dart';
 
 class PreferenceStorage {
   static final GetStorage _storage = GetStorage();
@@ -224,10 +222,6 @@ class PreferenceStorage {
 
   // To Clear All Prefs
   static Future<void> clearStorage() async {
-    // Temporary stop for Preference Values which need to stay even after clearing all Preferences
-    final buildMode =
-        PreferenceStorage.getString(AppString.currentBuildModeKey) ??
-            Environment.development;
 
     final locale = getAppLocale();
 
@@ -235,11 +229,9 @@ class PreferenceStorage {
 
     await _storage.erase();
     await _secureStorage.deleteAll();
-    await APICacheManager.clearAll();
 
     // Putting Value Back
     PreferenceStorage.setAppLocale(locale);
-    PreferenceStorage.setString(AppString.currentBuildModeKey, buildMode);
     PreferenceStorage.setIsBiometricSupported(isBiometricSupported);
   }
 }

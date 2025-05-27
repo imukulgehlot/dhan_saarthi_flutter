@@ -50,7 +50,7 @@ A Flutter application built as an interview task that showcases user authenticat
 1. **Clone the Repo:**
 
 ```bash
-git clone [https://github.com/your-username/your-repo.git](https://github.com/imukulgehlot/dhan_saarthi_flutter)
+git clone [https://github.com/imukulgehlot/dhan_saarthi_flutter](https://github.com/imukulgehlot/dhan_saarthi_flutter)
 cd your-repo
 ```
 
@@ -123,10 +123,6 @@ flutter run
 
 - **State Management:**
     - [`GetX`] chosen for lightweight reactive state, navigation, and DI in one
-
-- **Mutual Fund Data Handling:**
-    - Stored in Supabase table `mutual_funds`, displayed after filtering/sorting
-    - Watchlist linked by user ID in `user_watchlists`
 
 - **UI/UX:**
     - Prioritized clarity over complexity; focus on intuitive UX
